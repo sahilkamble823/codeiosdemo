@@ -84,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           return buildimage(urlimage, index);
                         },
                         options: CarouselOptions(
-                          autoPlayAnimationDuration: Duration(seconds: 3),
+                          autoPlayAnimationDuration: Duration(seconds: 1),
                             autoPlay: true,
                             height: 140,
                             onPageChanged: (index, reason) {

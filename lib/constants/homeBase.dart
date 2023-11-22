@@ -19,7 +19,7 @@ class _HomeBaseScreenState extends State<HomeBaseScreen> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
-    LoginPage(),
+    LikedPage(),
     CategoryPage(),
   ];
 

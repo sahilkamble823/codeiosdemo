@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           bodyMedium: GoogleFonts.montserrat(textStyle: textTheme.bodyMedium),
         ),
       ),
-      home:HomeBaseScreen(),
+      home:LoginPage(),
     );
   }
 }

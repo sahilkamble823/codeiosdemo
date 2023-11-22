@@ -23,15 +23,6 @@ class _LikedPageState extends State<LikedPage> {
     CategoryPList(name: "Market", image: "https://images.unsplash.com/photo-1543083477-4f785aeafaa9?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fG1hcmtldHxlbnwwfDB8MHx8fDI%3D"),
   ];
 
- List<FavouritePList> favlist = [
-   FavouritePList(name: "Food"),
-   FavouritePList(name: "Fun"),
-   FavouritePList(name: "Shops"),
-   FavouritePList(name: "Grocery"),
-   FavouritePList(name: "Food"),
-   FavouritePList(name: "Fun"),
-
- ];
 
   @override
   void dispose() {

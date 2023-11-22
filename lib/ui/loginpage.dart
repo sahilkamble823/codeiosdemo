@@ -1,3 +1,4 @@
+import 'package:explorer/ui/signupPage.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -18,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
               children: [
                 //icon logo
                 Image(
-                  height:200,
+                  height:150,
                   width: 200,
                   image: AssetImage('assets/images/signupbg.png'),
                 ),
@@ -64,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
 
                   },
                   child: Container(
-                    height: 60,
+                    height: 50,
                     margin: EdgeInsets.symmetric(horizontal: 25),
                     decoration: BoxDecoration(
                       color: Colors.purple,
@@ -84,7 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                       Text('New user?'),
                       GestureDetector(
                         onTap: (){
-
+                         Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUpPage()));
                         },
                         child: Text('Register here',style: TextStyle(
                             fontSize: 15,
